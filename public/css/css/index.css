@@ -1,0 +1,207 @@
+body{
+	width: 1540px;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: math !important;
+}
+body a{
+	text-decoration: none;
+}
+
+.header{
+	display: flex;
+	align-items: center;
+	height: 4.5rem;
+	box-shadow: 1px 3px lightgrey;
+}
+
+.header .icon{
+	width: 8%;
+	display: flex;
+    justify-content: center;
+}
+.header .content-header{
+	width: 43%;
+	text-transform: capitalize;
+}
+
+.header .content-header strong{
+	padding: 0 14px;
+}
+
+.header .img-header{
+	width: 10%;
+}
+.header .img-header img{
+	width: 4rem;
+	display: flex;
+    justify-content: center;
+    border-radius: 100%;
+}
+.header .notification{
+	width: 15%;
+	display: flex;
+    justify-content: flex-end;
+    padding-right: 22px;
+}
+.header .notification .span2{
+	margin: 0 18px;
+}
+
+.list-css{
+	margin: 3rem;
+}
+
+.date{
+	display: flex;
+    align-items: center;
+    border: 1px solid lightgrey;
+    margin-left: 41px;
+    border-radius: 15px;
+}
+.date input{
+	border: none;
+	width: 94px;
+	padding: 0 5px;
+}
+.date svg{
+	padding: 0 11px;
+}
+
+#pills-tabContent{
+	width: 90%;
+	margin: auto;
+}
+
+#pills-tab{
+	width: 85%;
+    margin: auto;
+    margin-top: 4rem;
+}
+
+#myTable{
+	width: 100% !important;
+	max-width: 84rem;
+    overflow-x: auto;
+}
+
+#myTable td{
+	border: solid 1px;
+}
+#myTable tr{
+	font-size: 12px;
+}
+#myTable th{
+	width: 180px !important;
+    border: solid 2px;
+}
+#pills-tabContent {
+    width: 90%;
+    margin: auto;
+    padding: 28px;
+}
+.list_request{
+	width: 21%;
+    position: fixed;
+    height: 100%;
+    z-index: 1;
+    top: 72px;
+    padding-left: 30px;
+    text-transform: uppercase;
+    box-shadow: 2px 0px grey;
+    background: aliceblue;
+}
+
+.list_request .range{
+	padding-top: 20px;
+}
+.list_request .range svg{
+	padding-right: 10px;
+}
+
+.list_request a{
+	color: black;
+}
+.list_request{
+	display: none;
+	line-height: 41px;
+}
+table{
+	border: none;
+	box-shadow: 0px 3px 6px 1px grey;
+}
+table tr td,th{
+    border: none !important;
+}
+table tr td{
+	text-align: center;
+}
+table{
+    border-collapse:collapse;
+    width:100%;
+}
+th, td{
+    text-align:left;
+    padding:10px;
+}
+table tr:nth-child(odd){
+    background-color:#eee !important;
+}
+
+table tr th{
+	background: skyblue !important;
+    text-align: center;
+}
+
+.search_css{
+	width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 22px;
+    /* margin: 0 96px; */
+    padding: 0 31px;
+}
+.search_css button{
+	margin-right: 144px;
+    background: #1890ff;
+    border: none;
+    border-radius: 7px;
+    box-shadow: 2px 2px grey;
+    color: white;
+    padding: 0 17px;
+}
+
+.header .content-header strong{
+	color: black;
+}
+.header .content-header strong:hover{
+	color: red;
+}
+.css_listcar{
+	width: 90%;
+	margin: auto;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 2rem;
+	padding: 0 2rem;
+}
+
+.select{
+	display: flex;
+}
+
+table th{
+	text-align: center !important;
+}
+/*.list_request a span:hover{
+	color: red;
+}*/
+/*.dinone{
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	position: fixed;
+}*/
